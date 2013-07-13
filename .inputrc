@@ -1,0 +1,8 @@
+# cycle forward
+TAB: menu-complete
+
+# show all
+"\e[Z": complete
+
+# display one column with matches
+set completion-display-width 1
