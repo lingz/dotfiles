@@ -48,11 +48,6 @@ nmap <silent> <C-Up> <C-W>+
 " enable file type detection and indent appropriately 
 filetype plugin indent on
 
-if &t_Co >= 256 || has("gui_running")
-  set background=dark
-  colorscheme solarized
-endif
-
 set pastetoggle=<F2> " allows F2 to be mapped to turn on and off pasting in vim
 
 " maps F3 to open the file explorer
@@ -207,3 +202,9 @@ let g:Tex_Leader2 = ',tex'
 let Tex_FoldedSections=""
 let Tex_FoldedEnvironments=""
 let Tex_FoldedMisc=""
+
+" Color Theme
+"set background=dark
+"set t_Co=256
+"colorscheme solarized
+"let g:solarized_termcolors=256

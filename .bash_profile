@@ -6,3 +6,5 @@ source ~/.profile
 if [ -f /etc/bash_completion ]; then
      . /etc/bash_completion 
 fi
+
+[[ -s /home/ling/.nvm/nvm.sh ]] && . /home/ling/.nvm/nvm.sh # This loads NVM
