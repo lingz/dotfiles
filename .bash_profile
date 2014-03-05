@@ -8,3 +8,5 @@ if [ -f /etc/bash_completion ]; then
 fi
 
 [[ -s /home/ling/.nvm/nvm.sh ]] && . /home/ling/.nvm/nvm.sh # This loads NVM
+
+export ONEFORM=~/Documents/oneform
