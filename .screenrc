@@ -1,7 +1,7 @@
 startup_message off
 term screen-256color
 hardstatus off
-escape ^Tt
+escape ^Ff
 hardstatus alwayslastline
 hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %m-%d %{W} %c %{g}]'
 vbell off
