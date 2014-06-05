@@ -6,3 +6,7 @@ TAB: menu-complete
 
 # display one column with matches
 set completion-display-width 1
+
+# back and forward a word with Ctrl + L and Ctrl + R in iTerm
+"\e[1;9D": backward-word
+"\e[1;9C": forward-word
