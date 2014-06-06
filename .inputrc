@@ -8,5 +8,5 @@ TAB: menu-complete
 set completion-display-width 1
 
 # back and forward a word with Ctrl + L and Ctrl + R in iTerm
-"\e[1;9D": backward-word
-"\e[1;9C": forward-word
+"\e[1;5D": backward-word
+"\e[1;5C": forward-word
