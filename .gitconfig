@@ -8,7 +8,7 @@
     status = auto
     branch = auto
     interactive = auto
-    ui = true
+	ui = true
     pager = true
 [color "branch"]
     current = yellow reverse
@@ -23,3 +23,6 @@
     added = green bold
     changed = yellow bold
     untracked = red bold
+[core]
+	editor = vim
+	excludesfile = /Users/lzhang/.gitignore_global

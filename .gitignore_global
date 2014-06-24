@@ -38,10 +38,31 @@ Thumbs.db
 #######
 *.swp
 
-node_modules
+node_modules/
 
 # IntelliJ #
 ############
-.project
 .idea
 
+test_ecbuild
+ecbuild
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+*.class
+compiler_cache
+*.war
+/.ivy
+/releaseartifacts
+
+build/
+test_ecbuild/
+dist.zip
+buildlib/
+.svn/
+reports
+.settings/
+.gradle/
+test-results/
+.module-cache/
