@@ -1,14 +1,14 @@
 [user]
-	email = lzhang@palantir.com
-	name = Lingliang Zhang
+    email = lingliangz@gmail.com
+    name = Lingliang Zhang
 [push]
-	default = simple
+    default = simple
 [color]
     diff = auto
     status = auto
     branch = auto
     interactive = auto
-	ui = true
+    ui = true
     pager = true
 [color "branch"]
     current = yellow reverse
@@ -24,5 +24,5 @@
     changed = yellow bold
     untracked = red bold
 [core]
-	editor = vim
-	excludesfile = /Users/lzhang/.gitignore_global
+    editor = vim
+    excludesfile = ~/.gitignore_global
