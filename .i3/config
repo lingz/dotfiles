@@ -33,7 +33,7 @@ bindsym $mod+Return exec urxvt
 bindsym $mod+Shift+Return exec google-chrome
 
 # kill focused window
-bindsym $mod+q kill
+bindsym $mod+w kill
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
@@ -52,9 +52,9 @@ bindsym $mod+i split v
 bindsym $mod+f fullscreen
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+w layout stacking
-bindsym $mod+e layout tabbed
-bindsym $mod+r layout toggle split
+bindsym $mod+z layout stacking
+bindsym $mod+x layout tabbed
+bindsym $mod+c layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle

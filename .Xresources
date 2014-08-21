@@ -1,4 +1,5 @@
 ! Paste
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste
 URxvt*iso14755: False
 URxvt.perl-ext-common: default,matcher,clipboard
@@ -19,6 +20,10 @@ URxvt*cursorBlink: true
 URxvt*scrollTtyOutput:      false
 URxvt*scrollWithBuffer:     true
 URxvt*scrollTtyKeypress:    true
+
+! Fade
+URxvt.fading: 5
+URxvt.fadeColor: [0]black
 
 ! Base16 Atelier Forest
 ! Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest)
