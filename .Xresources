@@ -22,7 +22,7 @@ URxvt*scrollWithBuffer:     true
 URxvt*scrollTtyKeypress:    true
 
 ! Fade
-URxvt.fading: 5
+URxvt.fading: 10
 URxvt.fadeColor: [0]black
 
 ! Base16 Atelier Forest
