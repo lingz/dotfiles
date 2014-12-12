@@ -30,7 +30,7 @@ floating_modifier $mod
 bindsym $mod+Return exec urxvt
 
 # Start Chrome
-bindsym $mod+Shift+Return exec google-chrome
+bindsym $mod+Shift+Return exec google-chrome-beta
 
 # kill focused window
 bindsym $mod+w kill
