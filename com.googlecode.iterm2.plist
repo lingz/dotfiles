@@ -723,11 +723,11 @@
 			<key>Ansi 2 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.16800867021083832</real>
+				<real>0.21960784494876862</real>
 				<key>Green Component</key>
-				<real>0.67720884084701538</real>
+				<real>0.71764707565307617</real>
 				<key>Red Component</key>
-				<real>0.29709768295288086</real>
+				<real>0.35294118523597717</real>
 			</dict>
 			<key>Ansi 3 Color</key>
 			<dict>
@@ -799,11 +799,11 @@
 			<key>Background Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.07364393025636673</real>
+				<real>0.094117648899555206</real>
 				<key>Green Component</key>
-				<real>0.076197214424610138</real>
+				<real>0.098039217293262482</real>
 				<key>Red Component</key>
-				<real>0.08134867250919342</real>
+				<real>0.10588235408067703</real>
 			</dict>
 			<key>Background Image Is Tiled</key>
 			<false/>
@@ -873,11 +873,11 @@
 			<key>Foreground Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.16800867021083832</real>
+				<real>0.62352943420410156</real>
 				<key>Green Component</key>
-				<real>0.67720884084701538</real>
+				<real>0.63137257099151611</real>
 				<key>Red Component</key>
-				<real>0.29709768295288086</real>
+				<real>0.65882354974746704</real>
 			</dict>
 			<key>Guid</key>
 			<string>021A0F0E-F275-4207-AF63-D1FC1425C620</string>
