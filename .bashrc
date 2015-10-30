@@ -1,7 +1,10 @@
+PS1='\[\e[1;32m\]\u@\h \[\e[1;34m\]\w\[\e[0;33m\]$(__git_ps1 " (%s)") \[\e[1;30m\]\$ \[\e[m\]'
 export PATH=$PATH:~/Applications
 export PATH=$PATH:~/Scripts
 export PATH=$PATH:~/Tools
-source ~/.git-prompt.sh
+if [ -f ~/.git-prompt.sh ]; then
+  source ~/.git-prompt.sh
+fi
 function gits() {
   git add -A;
   git commit -m "$@";
@@ -9,10 +12,5 @@ function gits() {
   git push;
 }
 
-export GAZELLE=~/Code/isomorphic-flux-starter/
-
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
-
-export NVM_DIR="/home/ling/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
