@@ -9,7 +9,7 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod1
+set $mod Mod5
 
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -36,7 +36,10 @@ bindsym $mod+Shift+Return exec google-chrome
 bindsym $mod+w kill
 
 # start dmenu (a program launcher)
+#bindsym $mod+d exec dmenu_run
+exec source ~/.bashrc
 bindsym $mod+d exec dmenu_run
+bindsym $mod+g exec export | xmessage -file -
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -110,6 +113,7 @@ bar {
 	mode hide
         status_command i3status --config ~/.i3status.conf
 	position top
+  modifier Mod4
 }
 
 bindsym $mod+s bar hidden_state toggle
@@ -146,3 +150,10 @@ bindsym XF86AudioRaiseVolume exec amixer -q sset Master 5%+ unmute
 bindsym XF86AudioLowerVolume  exec amixer -q sset Master 5%- unmute
 bindsym XF86AudioMute exec amixer -q -D purlse sset Master 1+ toggle
 bindsym XF86MicMute exec amixer -q sset Mic toggle
+
+# Startup
+# Do new keybindings
+exec xmodmap ~/.xmodmap
+exec --no-startup-id nm-applet
+# Disable touchpad
+exec xinput set-prop 15 'Device Enabled' 0
