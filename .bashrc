@@ -14,3 +14,6 @@ function gits() {
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+export GOPATH=~/go
+export PATH=$PATH:$GOPATH/bin

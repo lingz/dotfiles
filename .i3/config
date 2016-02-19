@@ -9,7 +9,7 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod5
+set $mod Mod4
 
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -113,7 +113,7 @@ bar {
 	mode hide
         status_command i3status --config ~/.i3status.conf
 	position top
-  modifier Mod4
+  modifier Mod5
 }
 
 bindsym $mod+s bar hidden_state toggle
