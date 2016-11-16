@@ -1,8 +1,9 @@
 ! Paste
-URxvt.perl-ext-common: default,matcher,clipboard
+URxvt.perl-ext-common: default,clipboard,selection-to-clipboard,keyboard-select
 URxvt.keysym.Shift-Control-C: perl:clipboard:copy
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste
 URxvt*iso14755: False
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
 
 ! Fonts
 !URxvt*font: xft:Monospace:pixelsize=12
