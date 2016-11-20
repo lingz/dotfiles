@@ -1,3 +1,12 @@
+! DPI
+Xft.dpi: 125
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
 ! Paste
 URxvt.perl-ext-common: default,clipboard,selection-to-clipboard,keyboard-select
 URxvt.keysym.Shift-Control-C: perl:clipboard:copy
@@ -8,8 +17,8 @@ URxvt.keysym.M-Escape: perl:keyboard-select:activate
 ! Fonts
 !URxvt*font: xft:Monospace:pixelsize=14
 !URxvt*boldFont: xft:Monospace:bold:pixelsize=14
-URxvt*font: xft:Source Code Pro:pixelsize=16
-URxvt*boldFont: xft:Source Code Pro:bold:pixelsize=16
+URxvt*font: xft:Source Code Pro:pixelsize=18
+URxvt*boldFont: xft:Source Code Pro:bold:pixelsize=18
 
 ! Misc
 URxvt*saveLines: 12000
