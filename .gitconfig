@@ -1,7 +1,6 @@
 [user]
     email = lingliangz@gmail.com
     name = Lingliang Zhang
-	signingkey = 5DB944ADAB6CB45E
 [push]
     default = simple
 [color]
@@ -27,7 +26,5 @@
 [core]
     editor = vim
     excludesfile = ~/.gitignore_global
-[commit]
-	gpgsign = true
 [alias]
 	lg = log --all --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
